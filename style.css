@@ -1,0 +1,25 @@
+.cont-1,.cont-2 {
+    text-align: center;
+    width: 75%;
+    margin:0 auto;
+    
+}
+.cont-2,.cont-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border:3px solid black;
+    padding:10px;
+}
+.cont-2 img{
+    width: 20vw;
+    height: 30vh;
+    
+}
+.cont-2 img:hover{
+    box-shadow: 0px 10px 50px rgba(248,7,4,0.8);
+    cursor: pointer;
+}
+.cont-2 h1{
+    margin-top: 10vh;
+}
